@@ -45,3 +45,27 @@ Explanation
 When we sum the integers 10 and 4, we get the integer 14. When we subtract the second number 4 from the first number 10, we get 6 as their difference.
 
 When we sum the floating-point numbers 4.0 and 2.0, we get 6.0. When we subtract the second number 2.0 from the first number 4.0, we get 2.0 as their difference.
+# AIM:
+To write a program to print the sum of the integers in the array.
+
+# ALGORITHM:
+Start. Define a variables. Write a program to print the sum of the integers in the array. Read the value using scanf. Ask the user to make an input. Print out the answer. End.
+
+# PROGRAM:
+#include<stdio.h>
+int main()
+{
+int i,n,sum=0,arr[100];
+scanf("%d",&n);
+{
+for(i=0;i<n;i++)
+scanf("%d",&arr[i]);
+for(i=0;i<n;i++)
+sum=sum+arr[i];
+i++;
+}printf("%d",sum);
+}
+# output:
+<img width="1674" height="385" alt="image" src="https://github.com/user-attachments/assets/d0ad4061-94b5-49bd-9158-91fe6a2bcb69" />
+# RESULT:
+Thus, the program is executed and verified successfully.
